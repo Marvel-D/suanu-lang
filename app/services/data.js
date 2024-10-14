@@ -19,15 +19,6 @@ import {
 } from "firebase/auth";
 
 // ! setup data in env
-const firebaseConfig = {
-    apiKey: "AIzaSyCI7n_DUKCjZs9KQ3xrLjHGjSHNAc4SzAc",
-    authDomain: "suanu-1f1ff.firebaseapp.com",
-    projectId: "suanu-1f1ff",
-    storageBucket: "suanu-1f1ff.appspot.com",
-    messagingSenderId: "184915921426",
-    appId: "1:184915921426:web:c1de2ca12c10eae91126cb",
-    measurementId: "G-BTZYSLM8CR"
-};
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
